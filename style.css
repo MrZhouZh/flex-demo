@@ -1,0 +1,278 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px 0;
+  font: 12px/1.5 'Microsoft Yahei', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #DEDEDE;
+  border-radius: 20px;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 1px, rgba(0,0,0,0.45) 0 3px 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #797979;
+  padding: 4px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+p {
+  font-size: 15px;
+  background: #797979;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  line-height: 2;
+}
+a {
+  color: #ffd200;
+}
+blockquote {
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.06);
+  color: #222;
+}
+pre {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: normal;
+  font-style: normal;
+  border: none;
+  color: #111;
+}
+code {
+  margin: 0;
+  padding: 0;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  color: black;
+  text-shadow: 0 1px white;
+  font-family: monospace,Consolas,Monaco,"Andale Mono";
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  font-size: 1.2em;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+
+/* demo style */
+.box {
+  display: flex;
+  background: #797979;
+  margin-bottom: 40px;
+}
+
+.box-tall {
+  height: 450px;
+}
+
+.box-1 {
+  flex-direction: row-reverse;
+}
+
+.box-2 {
+  flex-wrap: nowrap;
+}
+
+.box-3 {
+  flex-wrap: wrap;
+}
+
+.box-4 {
+  flex-wrap: wrap-reverse;
+}
+
+.box-5 {
+  flex-flow: row-reverse nowrap;
+}
+
+.box-6 {
+  justify-content: flex-start;
+}
+
+.box-7 {
+  justify-content: flex-end;
+}
+
+.box-8 {
+  justify-content: center;
+}
+
+.box-9 {
+  justify-content: space-between;
+}
+
+.box-10 {
+  justify-content: space-around;
+}
+
+.box-11 {
+  align-items: flex-start;
+}
+
+.box-12 {
+  align-items: flex-end;
+}
+
+.box-13 {
+  align-items: center;
+}
+
+.box-14 {
+  align-items: baseline;
+}
+
+.box-15 {
+  align-items: stretch;
+}
+
+.box-16 {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.box-17 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.box-18 {
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.box-19 {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.box-20 {
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.box-21 {
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.box-item {
+  width: 25%;
+  height: 150px;
+  line-height: 150px;
+  vertical-align: middle;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  background-color: #ffd200;
+}
+
+.item-wrap {
+  width: 10%;
+}
+
+
+.item-nowrap {
+  width: 11.4%;
+}
+
+.box-item-tall {
+  height: 150px;
+}
+
+.item-aligncontent {
+ width: 4%;
+}
+
+.item-order--1 {
+  order: -1;
+}
+
+.item-order--2 {
+  order: -2;
+}
+
+.item-flexgrow {
+  width: auto;
+}
+
+.item-flexgrow-1 {
+  flex-grow: 1;
+}
+
+.item-flexgrow-2 {
+  flex-grow: 2;
+}
+
+.item-flexshrink {
+  flex-shrink: 0;
+}
+
+.item-flexbasis {
+  flex-basis: 25%;
+  width: 400px;
+  /* width 在此无效 */
+}
+
+.item-flex {
+  flex: auto;
+}
+
+.item-alignself-start {
+  align-self: flex-start;
+}
+
+.item-alignself-end {
+  align-self: flex-end;
+}
+
+.item-alignself-center {
+  align-self: center;
+}
+
+.item-alignself-baseline {
+  align-self: baseline;
+}
+
+.item-alignself-stretch {
+  align-self: stretch;
+}
+
+.item-alignself-auto {
+  align-self: auto;
+}
+
+.item-spe {
+  line-height: normal;
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+}
